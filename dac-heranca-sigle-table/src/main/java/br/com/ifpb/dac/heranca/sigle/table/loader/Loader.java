@@ -13,6 +13,10 @@ public class Loader {
 
     public static void main(String[] args) {
         GenericDao dao = new GenericDao();
-        dao.persist(new Aluno());
+        Aluno j = new Aluno();
+        j.setIdade(10);
+        j.setMatricula("123");
+        j.setName("Joao Marcos");
+        dao.persist(j);
     }
 }
