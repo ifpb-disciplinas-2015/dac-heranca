@@ -14,6 +14,5 @@ import javax.persistence.Entity;
  */
 @Entity
 public class Gerente extends Funcionario{
-    private 
     
 }
