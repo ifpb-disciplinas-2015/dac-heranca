@@ -7,7 +7,7 @@ import javax.persistence.DiscriminatorValue;
  * @author João Marcos F <joaomarccos.ads@gmail.com>
  */
 @DiscriminatorValue(value = "teacher")
-public class Professor extends Pessoa{
+public class Professor extends People{
     private String siape;
 
     public String getSiape() {
