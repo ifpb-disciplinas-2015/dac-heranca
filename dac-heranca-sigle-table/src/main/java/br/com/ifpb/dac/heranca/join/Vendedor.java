@@ -15,4 +15,26 @@ import javax.persistence.Entity;
 @Entity
 public class Vendedor extends Funcionario{
     
+    private int numeroVendas;
+    private int contaVendas;
+
+    public int getNumeroVendas() {
+        return numeroVendas;
+    }
+
+    public void setNumeroVendas(int numeroVendas) {
+        this.numeroVendas = numeroVendas;
+    }
+
+    public int getContaVendas() {
+        return contaVendas;
+    }
+
+    public void setContaVendas(int contaVendas) {
+        this.contaVendas = contaVendas;
+    }
+    
+    
+    
+    
 }
