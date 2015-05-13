@@ -28,8 +28,12 @@ public class Cantor extends Artista implements Serializable{
     public Cantor() {
     }
 
-    public Cantor(int id, String estiloMusical) {
-        this.id = id;
+    public Cantor(String estiloMusical) {
+        this.estiloMusical = estiloMusical;
+    }
+
+    public Cantor(String estiloMusical, String nome) {
+        super(nome);
         this.estiloMusical = estiloMusical;
     }
 

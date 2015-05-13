@@ -28,8 +28,8 @@ public class Ator extends Artista implements Serializable{
     public Ator() {
     }
 
-    public Ator(int id, String areaAtuacao) {
-        this.id = id;
+    public Ator(String areaAtuacao, String nome) {
+        super(nome);
         this.areaAtuacao = areaAtuacao;
     }
 

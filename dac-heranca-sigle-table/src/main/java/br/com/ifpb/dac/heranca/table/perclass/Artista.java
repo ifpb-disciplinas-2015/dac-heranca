@@ -31,9 +31,8 @@ public class Artista implements Serializable{
     public Artista() {
     }
 
-    public Artista(String nome, int id) {
+    public Artista(String nome) {
         this.nome = nome;
-        this.id = id;
     }
 
     public String getNome() {
