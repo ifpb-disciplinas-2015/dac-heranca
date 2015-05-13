@@ -8,7 +8,7 @@ import javax.persistence.Entity;
  * @author João Marcos F <joaomarccos.ads@gmail.com>
  */
 @Entity
-@DiscriminatorValue(value = "teacher")
+@DiscriminatorValue("teacher")
 public class Professor extends People{
     private String siape;
 

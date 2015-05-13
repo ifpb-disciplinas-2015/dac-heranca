@@ -3,9 +3,14 @@
   <persistence-unit name="br.com.ifpb.tcc_dac-heranca-sigle-table_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>br.com.ifpb.dac.heranca.sigle.table.entities.People</class>
+<<<<<<< HEAD
     <class>br.com.ifpb.dac.heranca.table.perclass.Artista</class>
     <class>br.com.ifpb.dac.heranca.table.perclass.Ator</class>
     <class>br.com.ifpb.dac.heranca.table.perclass.Cantor</class>
+=======
+    <class>br.com.ifpb.dac.heranca.sigle.table.entities.Aluno</class>
+    <class>br.com.ifpb.dac.heranca.sigle.table.entities.Professor</class>
+>>>>>>> 21e16edcf3c2be516a61d7b6a45152e056e8cdd6
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/dac-heranca-db"/>
       <property name="javax.persistence.jdbc.user" value="dac"/>
