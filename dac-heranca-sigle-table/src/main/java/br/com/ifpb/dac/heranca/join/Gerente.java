@@ -15,4 +15,24 @@ import javax.persistence.Entity;
 @Entity
 public class Gerente extends Funcionario{
     
+    private int numeroFuncionarios;
+    private String setor;
+
+    public int getNumeroFuncionarios() {
+        return numeroFuncionarios;
+    }
+
+    public void setNumeroFuncionarios(int numeroFuncionarios) {
+        this.numeroFuncionarios = numeroFuncionarios;
+    }
+
+    public String getSetor() {
+        return setor;
+    }
+
+    public void setSetor(String setor) {
+        this.setor = setor;
+    }
+    
+    
 }
